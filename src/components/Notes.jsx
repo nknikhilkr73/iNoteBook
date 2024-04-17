@@ -24,7 +24,7 @@ const Notes = (props) => {
             navigate('/login')
         }
 
-    }, [])
+    }, [])// eslint-disable-line react-hooks/exhaustive-deps
 
     const updateNote = (currentNote) => {
         ref.current.click()
