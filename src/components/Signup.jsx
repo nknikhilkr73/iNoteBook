@@ -7,7 +7,7 @@ const Signup = (props) => {
 
     const navigate = useNavigate()
 
-    const host = "https://iinotebookk.netlify.app"
+    const host = "https://inotebook-fjx6.onrender.com"
 
 
     const handleSubmit = async (e) => {
