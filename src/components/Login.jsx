@@ -6,7 +6,7 @@ const Login = (props) => {
 
     const navigate = useNavigate()
 
-    const host = "http://localhost:5000"
+    const host = "https://inotebook-fjx6.onrender.com"
 
 
     const handleSubmit = async (e) => {
