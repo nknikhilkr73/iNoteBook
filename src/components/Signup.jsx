@@ -7,7 +7,7 @@ const Signup = (props) => {
 
     const navigate = useNavigate()
 
-    const host = "http://localhost:5000"
+    const host = "https://iinotebookk.netlify.app"
 
 
     const handleSubmit = async (e) => {
@@ -58,10 +58,10 @@ const Signup = (props) => {
                     <label htmlFor="password" className="form-label">Password</label>
                     <input minLength={5} required type="password" className="form-control" id="password" name='password' autoComplete='off' onChange={onChange} />
                 </div>
-                <div className="mb-3">
+                {/* <div className="mb-3">
                     <label htmlFor="cpassword" className="form-label">Confirm Password</label>
                     <input type="cpassword" className="form-control" id="cpassword" name='cpassword' autoComplete='off' onChange={onChange} />
-                </div>
+                </div> */}
 
                 <button type="submit" className="btn btn-primary" >Signup</button>
             </form>
